@@ -1,0 +1,168 @@
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(10, 10, 10);
+    position: fixed;
+    overflow: scroll;
+    color:white;
+    left: 0px;
+    top: 0px;
+    border:white;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
+
+header a:link {color:white;text-decoration: none;}    
+header a:visited {color:white;text-decoration: none;} 
+header a:hover {color:yellow;text-decoration: none;}   
+header a:active {color:yellow;text-decoration: none;}
+
+
+
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+
+#title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.button {
+	position: absolute;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: rgb(254, 255, 252);
+	background: rgb(255, 84, 94);
+	padding: 15px;
+	letter-spacing: 3px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+
+.button:hover {
+	cursor: pointer;
+	background:rgb(255, 44, 54);
+}
+
+
+
+
+#text1{
+    top: 17%;
+    position: absolute;
+	font-size:3.3em;
+    left: 40%;
+}
+
+
+#startbutton{
+    z-index: -1;
+    left: 43.5%;
+    bottom: 15%;
+}
+
+
+
+#pictures {
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#npictures {
+
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+#pictures img {
+    width: 200px;
+    margin: 0 20px;
+    transition: 0.3s;
+}
+
+#npictures img {
+
+    width: 200px;
+    margin: 0 20px;
+    transition: 0.3s;
+}
+
+
+
+#pictures img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#npictures img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.lightbox {
+    z-index: 22;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.lightbox .caption {
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
