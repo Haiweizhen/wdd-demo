@@ -16,3 +16,9 @@ The goal is to when the user hovers over the start button, he can see some
 When a user hovers over on an image, an image will have 0.8 opacity and
 have a transition period of 0. 3 seconds. This helps let the user know which
 image he is selecting.
+
+## Demo 1
+<img src='https://github.com/Haiweizhen/wdd-demo/blob/master/assets/img/demo1.jpg' />
+
+## Demo 2
+<img src='https://github.com/Haiweizhen/wdd-demo/blob/master/assets/img/demo2.jpg' />
